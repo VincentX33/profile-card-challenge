@@ -1,0 +1,27 @@
+.attribution {
+    box-sizing: border-box;
+    margin: auto;
+    text-align: center;
+    width: 16rem;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    background-color: rgba(141, 63, 204,50%);
+}
+
+.attribution b:hover {
+    text-shadow: 2px 2px rgb(96, 198, 206);
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-weight: 700;
+}
+
+.icon-lg {
+    display: inline-block;
+    width:30px;
+    height: 30px;
+    border-radius: 50%;
+    border : 10px double blue;
+    padding: 10px;
+    margin-bottom: 0.5rem;
+    background-color: rgb(40, 3, 71);
+}
+
