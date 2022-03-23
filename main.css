@@ -1,3 +1,14 @@
+body {
+    margin: 0;
+    font-size: 18px;
+    font-family: 'Kumbh Sans', sans-serif;
+    background-color: hsl(185, 75%, 39%);
+}
+footer {
+    position: absolute;
+    bottom: 10px;
+    left: 40%;
+}
 .attribution {
     box-sizing: border-box;
     margin: auto;
@@ -5,7 +16,8 @@
     width: 16rem;
     font-family: 'Trebuchet MS', sans-serif;
     font-size: 18px;
-    background-color: rgba(141, 63, 204,50%);
+    background: linear-gradient(to bottom, hsl(96,50%, 70%), hsl(96,50%, 45%));
+    visibility: hidden;
 }
 
 .attribution b:hover {
@@ -19,9 +31,79 @@
     width:30px;
     height: 30px;
     border-radius: 50%;
-    border : 10px double blue;
+    border : 10px double rebeccapurple;
     padding: 10px;
     margin-bottom: 0.5rem;
-    background-color: rgb(40, 3, 71);
+    background-color: hsl(220,70%,50%);
+}
+.attribution h4{
+    position: relative;
+    top:10px;
 }
 
+/* below*/
+.container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border:4px solid hsl(185, 75%, 39%);
+}
+
+.card {
+    width: 80%;
+    height: 50vh;
+    position: relative;
+}
+.face {
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    position: relative;
+    top:-7%;
+    border: 7px solid white;
+}
+.name {
+    display: inline-block;
+    width: 100%;
+    /* text-align: center; */
+    position: relative;
+    top:-7%;
+}
+.age {
+    display: inline;
+}
+.centered {
+    text-align: center;
+}
+.top {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.greytext {
+    color:hsl(0, 0%, 59%);
+}
+.innercontainer {
+    /* margin:auto; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-around;
+}
+.innercontainer > div {
+    /* display: inline-block; */
+    width: 27%;
+    text-align: center;
+    /* margin: 0 3px; */
+}
+.container::before {
+    display: block;
+    content: url("./images/bg-pattern-top.svg");
+    position: absolute;
+    left: 0px;
+    height: 100px;
+    width: 100px;
+    border: 10px solid red;
+    /* background-color: hsl(229, 23%, 23%); */
+    /* height: auto; */
+}
