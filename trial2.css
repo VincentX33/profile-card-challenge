@@ -2,7 +2,12 @@ h1 {
     text-align: center;
 
 }
-
+.spritetrial {
+    height: 800px;
+    width: 1300px;
+    background: url("./images/bg-pattern-top.svg") -150% 250%, url("./images/bg-pattern-bottom.svg") 230% -250%;
+    background-repeat: no-repeat;
+}
 .heart {
     position: relative;
     margin:auto;
