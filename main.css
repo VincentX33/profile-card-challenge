@@ -15,8 +15,10 @@ footer {
 .container {
     width: 100%;
     box-sizing: border-box;
-    height: 40rem;
-    background: url("./images/bg-pattern-top.svg") -10rem -10rem , url("/images/bg-pattern-bottom.svg") 300% 17rem;
+    /* height: 35rem; */
+    /* padding-top: 10%; */
+    /* padding-bottom: ; */
+    background: url("./images/bg-pattern-top.svg") -10rem -10rem , url("/images/bg-pattern-bottom.svg") 300% 22rem;
     background-repeat: no-repeat, no-repeat;
     border: 6px solid gold;
     background-origin:border-box,border-box;
