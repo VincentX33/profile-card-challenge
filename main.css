@@ -1,48 +1,58 @@
-body {
-    font-size: 18px;
-    font-family: 'Kumbh Sans', sans-serif;
-    background-color:/* hsl(185, 75%, 39%),hsl(227, 10%, 46%)*/hsl(229, 23%, 23%);
-}
-
 :root {
     box-sizing: border-box;
 }
-footer {
-    position: absolute;
-    bottom: 10px;
-    left: 40%;
+body {
+    font-size: 18px;
+    font-family: 'Kumbh Sans', sans-serif;
+    background-color:hsl(185, 75%, 39%);
+    box-sizing: border-box;
+    margin: 0;
 }
+main {
+    /* background-color:hsl(185, 75%, 39%);   */
+}
+
+.card hr {
+    margin-top:2vh;
+    width: 90%;
+    margin-bottom: 3vh;
+}
+
 .container {
     width: 100%;
     box-sizing: border-box;
-    /* height: 35rem; */
+    height: 100vh;
     /* padding-top: 10%; */
     /* padding-bottom: ; */
-    background: url("./images/bg-pattern-top.svg") -10rem -10rem , url("/images/bg-pattern-bottom.svg") 300% 22rem;
+    background: url("./images/bg-pattern-top.svg") -70vw -30vh, url("/images/bg-pattern-bottom.svg") 45vw 60vh;
     background-repeat: no-repeat, no-repeat;
-    border: 6px solid gold;
+    /* border: 6px solid gold; */
     background-origin:border-box,border-box;
     /* background-position: left top, right; */
-    background-color: rgb(129, 127, 255), rgb(55, 0, 255);
+    /* background-color: rgb(129, 127, 255); */
     /* z-index: 3; */
-    background-size:20rem 20rem, 20rem 20rem;
+    background-size:30rem 30rem, 30rem 30rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    max-height: max-content;
-    background-overflow: hidden;
-    /* border:4px solid hsl(185, 75%, 39%); */
+    /* max-height: max-content; */
+    /* background-overflow: hidden; */
+    /* border:4px solid hsl(241, 75%, 39%); */
     /* visibility: hidden; */
+}
+footer {
+    width: 100%;
+    left:calc()
 }
 .attribution {
     box-sizing: border-box;
     margin: auto;
     text-align: center;
-    width: 16rem;
+    width: 80%;
     font-family: 'Trebuchet MS', sans-serif;
     font-size: 18px;
-    background: linear-gradient(to bottom, hsl(96,50%, 70%), hsl(96,50%, 45%));
-    visibility: hidden;
+    background: linear-gradient(to left, rgb(140, 217, 150), rgb(57, 172, 86));
+    /* visibility: hidden; */
 }
 
 .attribution b:hover {
@@ -57,21 +67,19 @@ footer {
     height: 30px;
     border-radius: 50%;
     border : 10px double rebeccapurple;
-    padding: 10px;
+    padding: 3px;
     margin-bottom: 0.5rem;
-    background-color: hsl(220,70%,50%);
+    background-color: rgb(217, 50, 38);
 }
 .attribution h4{
     position: relative;
     top:10px;
 }
 
-/* below*/
-
 .card {
     display: block;
-    width: 80%;
-    height: 70%;
+    width: 90%;
+    height: 50%;
     /* border: 2px solid #1f5; */
     position: relative;
     overflow-y: auto;
@@ -92,8 +100,8 @@ footer {
     /* display: inline-block; */
     width: 100%;
     /* text-align: center; */
-    position: relative;
-    top:-10%;
+    margin-top: -4vh;
+    margin-bottom: 1vh;
 }
 .age {
     display: inline;
@@ -123,6 +131,5 @@ footer {
     /* margin: 0 3px; */
 }
 #city {
-    position: relative;
-    top:-10%;
+    margin: 5vh 0 2vh 0;
 }
