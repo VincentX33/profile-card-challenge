@@ -1,0 +1,41 @@
+h1 {
+    text-align: center;
+
+}
+.spritetrial {
+    height: 800px;
+    width: 1300px;
+    background: url("./images/bg-pattern-top.svg") -150% 250%, url("./images/bg-pattern-bottom.svg") 230% -250%;
+    background-repeat: no-repeat;
+}
+.heart {
+    position: relative;
+    margin:auto;
+    width: 100px;
+    height: 100px;
+    /* border: 1px solid hotpink; */
+    text-align: justify;
+    box-sizing: border-box;
+    padding: 7px;
+    color:rgb(234, 0, 255);
+    background-color: rgb(234, 0, 255);
+    transform: rotate(-45deg);
+}
+.heart::before, .heart::after{
+    content: "";
+    width: 100px;
+    height: 100px;
+    background-color: rgb(234, 0, 255);
+    position: absolute;
+    border-radius: 50%;
+}
+.heart::before {
+    top:-45px;
+    left: -0px;
+    background-color: rgb(234, 0, 255);
+}
+.heart::after{
+    top:-0px;
+    right: -50px;
+    background-color: rgb(234, 0, 255);
+}
