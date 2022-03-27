@@ -1,6 +1,6 @@
 # Frontend Mentor - 3-column preview card component solution
 
-This is a my solution to the [3-column display challenge](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-) on Frontend Mentor. 
+This is a my solution to the Profile Card Challenge on [Frontend Mentor](https://www.frontendmentor.io/). 
 
 ## Table of contents
 
@@ -27,19 +27,19 @@ Users should be able to:
 ### Screenshot
 
 Generic Laptop
-![Generic Laptop](./images/Screenshots/Generic%20Laptop.jpg)
+![Generic Laptop](./images/Screenshots/GenericLaptop.jpg)
 
 iPad
 ![iPad](./images/Screenshots/iPad.jpg)
 
 iPhone X
-![iPhone X](./images/Screenshots/iPhone%20X.jpg)
+![iPhone X](./images/Screenshots/iPhoneX.jpg)
 
 Macbook Air
-![Macbook Air](./images/Screenshots/MacBook%20Air.jpg)
+![Macbook Air](./images/Screenshots/MacBookAir.jpg)
 
 Nexus 6
-![Nexus 6](./images/Screenshots/Nexus%206.jpg)
+![Nexus 6](./images/Screenshots/Nexus6.jpg)
 
 ### Links
 
