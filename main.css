@@ -24,7 +24,7 @@ body {
     height: 100vh;
     /* padding-top: 10%; */
     /* padding-bottom: ; */
-    background: url("./images/bg-pattern-top.svg") -70vw -30vh, url("/images/bg-pattern-bottom.svg") 45vw 60vh;
+    background: url("./images/bg-pattern-top.svg") -70vw -30vh, url("./images/bg-pattern-bottom.svg") 45vw 60vh;
     background-repeat: no-repeat, no-repeat;
     /* border: 6px solid gold; */
     background-origin:border-box,border-box;
@@ -157,7 +157,7 @@ footer {
     }
     .container {
         background: none;
-        background: url("./images/bg-pattern-top.svg") -50vw -30vh, url("/images/bg-pattern-bottom.svg") 45vw 60vh;
+        background: url("./images/bg-pattern-top.svg") -50vw -30vh, url("./images/bg-pattern-bottom.svg") 45vw 60vh;
         background-repeat: no-repeat, no-repeat;
         background-origin:border-box,border-box;
         background-size:30rem 30rem, 30rem 30rem;
@@ -274,7 +274,7 @@ footer {
 @media only screen and (min-width:450px){
     .container {
         background: none;
-        background: url("./images/bg-pattern-top.svg") -40vw -18vh, url("/images/bg-pattern-bottom.svg") 40vw 58vh;
+        background: url("./images/bg-pattern-top.svg") -40vw -18vh, url("./images/bg-pattern-bottom.svg") 40vw 58vh;
         background-repeat: no-repeat, no-repeat;
         background-origin:border-box,border-box;
         background-size:30rem 30rem, 30rem 30rem;
@@ -290,7 +290,7 @@ footer {
     }
     .container {
         background: none;
-        background: url("./images/bg-pattern-top.svg") -20vw -15vh, url("/images/bg-pattern-bottom.svg") 45vw 60vh;
+        background: url("./images/bg-pattern-top.svg") -20vw -15vh, url("./images/bg-pattern-bottom.svg") 45vw 60vh;
         background-repeat: no-repeat, no-repeat;
         background-origin:border-box,border-box;
         background-size:34rem 34rem, 32rem 32rem;
@@ -303,7 +303,7 @@ footer {
     }
     .container {
         background: none;
-        background: url("./images/bg-pattern-top.svg") -32vw -25vh, url("/images/bg-pattern-bottom.svg") 40vw 50vh;
+        background: url("./images/bg-pattern-top.svg") -32vw -25vh, url("./images/bg-pattern-bottom.svg") 40vw 50vh;
         background-repeat: no-repeat, no-repeat;
         background-origin:border-box,border-box;
         background-size:40rem 40rem, 40rem 40rem;
@@ -316,7 +316,7 @@ footer {
 @media only screen and (min-width:720px) and (max-height:700px){
     .container {
         background: none;
-        background: url("./images/bg-pattern-top.svg") -10vw -50vh, url("/images/bg-pattern-bottom.svg") 50vw 60vh;
+        background: url("./images/bg-pattern-top.svg") -10vw -50vh, url("./images/bg-pattern-bottom.svg") 50vw 60vh;
         background-repeat: no-repeat, no-repeat;
         background-origin:border-box,border-box;
         background-size:35rem 35rem, 35rem 35rem;
@@ -326,7 +326,7 @@ footer {
 @media only screen and (min-width:850px) and (max-width:1100px){
     .container {
         background: none;
-        background: url("./images/bg-pattern-top.svg") -15vw -20vh, url("/images/bg-pattern-bottom.svg") 45vw 60vh;
+        background: url("./images/bg-pattern-top.svg") -15vw -20vh, url("./images/bg-pattern-bottom.svg") 45vw 60vh;
         background-repeat: no-repeat, no-repeat;
         background-origin:border-box,border-box;
         background-size:40rem 40rem, 40rem 40rem;
@@ -335,7 +335,7 @@ footer {
 @media only screen and (min-width:1101px) and (max-width:1200px){
     .container {
         background: none;
-        background: url("./images/bg-pattern-top.svg") -15vw -30vh, url("/images/bg-pattern-bottom.svg") 40vw 57vh;
+        background: url("./images/bg-pattern-top.svg") -15vw -30vh, url("./images/bg-pattern-bottom.svg") 40vw 57vh;
         background-repeat: no-repeat, no-repeat;
         background-origin:border-box,border-box;
         background-size:45rem 45rem, 45rem 45rem;
@@ -344,7 +344,7 @@ footer {
 @media only screen and (min-width:1201px) and (max-width:1440px){
     .container {
         background: none;
-        background: url("./images/bg-pattern-top.svg") -10vw -38vh, url("/images/bg-pattern-bottom.svg") 40vw 57vh;
+        background: url("./images/bg-pattern-top.svg") -10vw -38vh, url("./images/bg-pattern-bottom.svg") 40vw 57vh;
         background-repeat: no-repeat, no-repeat;
         background-origin:border-box,border-box;
         background-size:50rem 50rem, 50rem 50rem;
@@ -367,7 +367,7 @@ footer {
     }
     .container {
         background: none;
-        background: url("./images/bg-pattern-top.svg") -45vw -10vh, url("/images/bg-pattern-bottom.svg") 40vw 58vh;
+        background: url("./images/bg-pattern-top.svg") -45vw -10vh, url("./images/bg-pattern-bottom.svg") 40vw 58vh;
         background-repeat: no-repeat, no-repeat;
         background-origin:border-box,border-box;
         background-size:23rem 23rem, 23rem 23rem;
