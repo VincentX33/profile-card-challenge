@@ -1,4 +1,4 @@
-# Frontend Mentor - 3-column preview card component solution
+# Frontend Mentor - Profile Card Component
 
 This is a my solution to the Profile Card Challenge on [Frontend Mentor](https://www.frontendmentor.io/). 
 
