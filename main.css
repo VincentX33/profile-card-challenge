@@ -272,10 +272,6 @@ footer {
  /* mixed styles*/
 
 @media only screen and (min-width:450px){
-    .card {
-        /* height: 70%; */
-        /* width: 70%; */
-    }
     .container {
         background: none;
         background: url("./images/bg-pattern-top.svg") -40vw -18vh, url("/images/bg-pattern-bottom.svg") 40vw 58vh;
@@ -294,7 +290,7 @@ footer {
     }
     .container {
         background: none;
-        background: url("./images/bg-pattern-top.svg") -40vw -15vh, url("/images/bg-pattern-bottom.svg") 45vw 60vh;
+        background: url("./images/bg-pattern-top.svg") -20vw -15vh, url("/images/bg-pattern-bottom.svg") 45vw 60vh;
         background-repeat: no-repeat, no-repeat;
         background-origin:border-box,border-box;
         background-size:34rem 34rem, 32rem 32rem;
@@ -357,7 +353,7 @@ footer {
 @media only screen and (min-width:1441px){
     .container {
         background: none;
-        background: url("./images/bg-pattern-top.svg") -10vw -38vh, url("/images/bg-pattern-bottom.svg") 40vw 57vh;
+        background: url("./images/bg-pattern-top.svg") -10vw -38vh, url("./images/bg-pattern-bottom.svg") 40vw 57vh;
         background-repeat: no-repeat, no-repeat;
         background-origin:border-box,border-box;
         background-size:60vw 60vw, 60vw 60vw;
